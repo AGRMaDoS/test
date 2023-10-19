@@ -1,0 +1,200 @@
+@font-face { 
+  font-family: "Archangelsk";
+  src: url("./font/Archangelsk.woff2") format("woff2");
+}
+
+  @font-face {
+  font-family: "Roboto";
+  src:url("./font/RobotoBold.woff2") format("woff2")
+  
+}
+@keyframes animate {
+  0% {
+    background-image: url('./pervayaStr/empozatniyMyzchina.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    25% {
+      background-image: url('./pervayaStr/karyagaytachki.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    50% {
+      background-image: url('./pervayaStr/motoroler.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+    75% {
+    background-image: url('./pervayaStr/empozatniyMyzchina.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+  100% {
+    background-image: url('./pervayaStr/empozatniyMyzchina.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+}
+
+body {
+    margin: 0;
+}
+
+article {
+  height: 777px;
+}
+li {
+  list-style-type: none;
+}
+
+header {
+
+    
+    animation: animate 20s linear(0 0%, 0.02 -1.47%) infinite;
+    
+    height: 1000px;
+
+    padding: 20px 320px 0px;
+    
+  }
+  
+  
+  .cyberpank {
+    
+    width: 296px;
+    height: 74px;
+    
+    background-image:
+    url('./pervayaStr/logo/Cyberpunk_2077_logo1.svg');
+    
+    
+  }
+
+  .headdress {
+    
+    height: 78px;
+    padding: 20px 36px;
+
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+  }
+
+  .youtube {
+    background-image:
+    url('./pervayaStr/logo/youtube_logo.svg');
+    width: 30px;
+    height: 30px;
+    
+  }
+  .vk {
+    background-image:
+    url('./pervayaStr/logo/vk.svg') ;
+    width: 30px;
+    height: 30px;
+    margin-left: 40px;
+  }
+  .facebook {
+    background-image:
+    url('./pervayaStr/logo/facebook_rect_logo.svg');
+    width: 30px;
+    height: 30px;
+    margin-left: 40px;
+  }
+  .twitter {
+    background-image:
+    url('./pervayaStr/logo/twitter_square_logo.svg');
+    width: 30px;
+    height: 30px;
+    margin-left: 40px;
+  }
+  .twich {
+   background-image:
+   url('./pervayaStr/logo/twitch_logo.svg');
+   width: 29px;
+   height: 30px;
+   margin-left: 40px;
+  }
+  .insta {
+    background-image:
+    url('./pervayaStr/logo/instagram_square_logo.svg');
+    width: 30px;
+    height: 30px;
+    margin-left: 40px;
+  }
+
+  .y_cube {
+    
+    
+    background-image:
+    url('./pervayaStr/logo/yellow_cube.svg');
+    width: 624px;
+    height: 368px;
+    align-self: flex-end;
+    
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: flex-end;
+    
+  }
+
+  .d_u_c {
+    position: relative;
+    
+
+    width: 624px;
+    height: 324px;
+  }
+  
+    
+  
+  .soc_network {
+     
+
+    height: 35px;
+
+    display: flex;
+    justify-content: flex-end;
+
+  }
+
+  .wrapper {
+    height: 1000px;
+    display: flex;
+    flex-direction:column;
+    justify-content: space-between;
+    
+  }
+  
+  .h1_z {
+    width: 484px;
+    height: 126px;
+    
+    color: #000;
+    font-family: Archangelsk, sans-serif;
+    font-size: 62px;
+    margin-bottom: 30px;
+    font-weight: normal;
+    
+
+  }
+  .botton_headers {
+    width: 272px;
+    height: 78px;
+
+    cursor: pointer;
+    
+    
+
+    background-color: #000000;
+    color: #F8F200;
+    text-align: center;
+    font-family: Roboto;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; 
+  }
