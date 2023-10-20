@@ -198,3 +198,84 @@ header {
     font-weight: 700;
     line-height: 40px; 
   }
+/* начало 2 скролла */
+  .scroll_two {
+    background: #FFF;
+    height: 777px;
+    }
+  
+  .div_s_two{
+    padding: 70px 320px 0px;
+  }
+  .h2_z {
+    color: #000;
+    font-family: Archangelsk;
+    font-size: 62px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: normal;
+
+    margin: 0;
+  
+  }
+
+  .p_h2 {
+     color: #777;
+     font-family: Roboto;
+     font-size: 18px;
+     font-style: normal;
+     font-weight: normal;
+     line-height: 34px;
+
+    max-width: 952px;
+  
+  }
+
+  .s_h2 {
+    color: #52BEDC;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 34px;
+  }
+
+  .div_s_svg {
+    
+    margin-bottom: 0px;
+
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    
+  }
+  
+  .ul_img {
+    height: 777px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    align-items: baseline;
+    height: 424px;
+  }
+
+  .one_img {
+    background-image: url(./pervayaStr/svg_image/Rectangle_61.svg);
+    width: 788px;
+    height: 424px;
+  }
+  .two_img {
+    background-image: url(./pervayaStr/svg_image/Rectangle_62.svg);
+    width: 460px;
+    height: 196px;
+  }
+  .three_img {
+   background-image: url("./pervayaStr/svg_image/Rectangle_63.svg");
+   width: 460px;
+   height: 196px;
+  }
+
+  
